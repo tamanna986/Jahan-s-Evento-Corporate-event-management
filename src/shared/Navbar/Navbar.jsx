@@ -1,4 +1,4 @@
-import {  NavLink } from "react-router-dom";
+import {  Link, NavLink } from "react-router-dom";
 import { FaPersonCirclePlus} from "react-icons/fa6";
 
 
@@ -20,7 +20,7 @@ const Navbar = () => {
     </>
 
     return (
-        <div className="mx-auto container">
+        <div className="mx-auto container -mb-6 -mt-4">
            <div className="navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
@@ -44,7 +44,8 @@ const Navbar = () => {
   </div>
   <div className="navbar-end ">
     
-    <a className="btn btn-info text-white rounded-full"><FaPersonCirclePlus></FaPersonCirclePlus>Log In</a>
+    
+   <Link to = "Login"> <button className="btn btn-info text-white rounded-full"><FaPersonCirclePlus></FaPersonCirclePlus>Log In</button></Link>
   </div>
 </div>
         </div>
