@@ -17,10 +17,13 @@ const {signIn,signInWithGoogle } = useContext(AuthContext)
         const password = form.get('password');
         console.log(email, password)
 
+
         
         signIn(email,password)
         .then(result =>{
             console.log(result.user)
+            // const displayName = user.displayName;
+            // const photoURL = user.photoURL;
             toast.success("Log in successful!",{
                 position: toast.POSITION.TOP_RIGHT,
                 autoClose: 3000,
