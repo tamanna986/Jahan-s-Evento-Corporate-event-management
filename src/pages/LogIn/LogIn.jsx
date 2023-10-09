@@ -1,5 +1,5 @@
 
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import { ToastContainer, toast } from "react-toastify";
@@ -8,6 +8,7 @@ import "react-toastify/dist/ReactToastify.css";
 
 
 const LogIn = () => {
+    const [error, setError] = useState('')
 const {signIn,signInWithGoogle } = useContext(AuthContext)
 
     const handleLoginSubmit = (e) =>{
@@ -15,15 +16,23 @@ const {signIn,signInWithGoogle } = useContext(AuthContext)
         const form = new FormData(e.currentTarget);
         const email = form.get('email');
         const password = form.get('password');
+
         console.log(email, password)
 
-
+        if(!email){
+            setError('Enter your email please')
+            return;
+        }
+        else if (!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email)){
+            setError('please write a valid email')
+            return;
+        }
+        setError('');
         
         signIn(email,password)
         .then(result =>{
             console.log(result.user)
-            // const displayName = user.displayName;
-            // const photoURL = user.photoURL;
+
             toast.success("Log in successful!",{
                 position: toast.POSITION.TOP_RIGHT,
                 autoClose: 3000,
@@ -36,6 +45,7 @@ const {signIn,signInWithGoogle } = useContext(AuthContext)
         })
         .catch(error =>{
             console.error(error.message)
+            setError(error.message)
         })
         
 
@@ -84,6 +94,10 @@ const {signIn,signInWithGoogle } = useContext(AuthContext)
                                     <span className="label-text  text-white text-lg">Password</span>
                                 </label>
                                 <input type="password" placeholder="password" name="password" required className="input input-bordered" />
+                                {
+                    error && <li className="text-red-600 mt-1 text-center  ">{error}</li>
+                    
+                }
                                 <label className="label mt-2">
                                     <a  href="#" className="label-text-alt link link-hover font-bold text-white ">Forgot password?</a>
                                 </label>
@@ -97,6 +111,7 @@ const {signIn,signInWithGoogle } = useContext(AuthContext)
                                 <button onClick={handleGoogleSignIn}  className="w-20 rounded-full"><img className="w-10 rounded-full" src="https://i.ibb.co/njZzjPg/search.png" alt="" /></button>
                               
                             </div>
+
 
                         </div>
                     </div>

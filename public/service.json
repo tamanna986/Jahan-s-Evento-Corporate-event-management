@@ -1,0 +1,285 @@
+[
+    {
+      "id": 1,
+      "name": "Conference Management",
+      "image": "https://i.ibb.co/b33v7yM/conference.jpg",
+      "description": "Our conference management service is a comprehensive solution that includes expert planning and execution of conferences and seminars. We handle everything from venue selection to audio-visual setup and attendee management, ensuring a seamless and successful event.",
+      "price": 8000,
+      "key_features": [
+        "Venue Selection",
+        "Audio-Visual Setup",
+        "Attendee Management",
+        "Customized Event Planning"
+      ],
+      "testimonials": [
+        {
+          "client_name": "John Smith",
+          "quote": "The conference you organized for us was a huge success. Thank you for your attention to detail and professionalism."
+        },
+        {
+          "client_name": "Emily Johnson",
+          "quote": "I highly recommend your conference management service. It saved us time and stress, and our attendees were impressed."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you handle both small and large conferences?",
+          "answer": "Yes, our service is scalable to accommodate conferences of all sizes."
+        },
+        {
+          "question": "What is included in the audio-visual setup?",
+          "answer": "Our AV setup includes sound systems, projectors, screens, and technical support."
+        }
+      ],
+      "contact_info": {
+        "email": "info@example.com",
+        "phone": "+1 (123) 456-7890"
+      },
+      "related_services": [
+        {
+          "name": "Trade Show Coordination",
+          "url": "https://i.ibb.co/17ZSTqC/Trade-Show-Coordination.jpg"
+        },
+        {
+          "name": "Product Launch Management",
+          "url": "https://i.ibb.co/xGGkMcy/Product-Launch.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Trade Show Coordination",
+      "image": "https://i.ibb.co/17ZSTqC/Trade-Show-Coordination.jpg",
+      "description": "Our trade show coordination service provides end-to-end support for trade shows and expos. We ensure your booth stands out, manage logistics, and execute effective promotional activities.",
+      "price": 10000,
+      "key_features": [
+        "Booth Setup",
+        "Logistics Management",
+        "Promotional Activities",
+        "Custom Booth Design"
+      ],
+      "testimonials": [
+        {
+          "client_name": "Sarah Clark",
+          "quote": "The trade show coordination service exceeded our expectations. Our booth attracted a lot of attention, and we gained valuable leads."
+        },
+        {
+          "client_name": "Michael Davis",
+          "quote": "Thanks to your team, our trade show presence was a huge success. We'll definitely use your services again."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Do you handle international trade shows?",
+          "answer": "Yes, we have experience coordinating trade shows both nationally and internationally."
+        },
+        {
+          "question": "Can you design custom booths?",
+          "answer": "Absolutely! We specialize in creating eye-catching and unique booth designs."
+        }
+      ],
+      "contact_info": {
+        "email": "info@example.com",
+        "phone": "+1 (123) 456-7890"
+      },
+      "related_services": [
+        {
+          "name": "Conference Management",
+          "url": "https://i.ibb.co/b33v7yM/conference.jpg"
+        },
+        {
+          "name": "Product Launch Management",
+          "url": "https://i.ibb.co/xGGkMcy/Product-Launch.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Team Building Workshops",
+      "image": "https://i.ibb.co/4MFDyNr/team-building.jpg",
+      "description": "Boost team cohesion and productivity with our team building workshops. Our engaging activities and workshops enhance communication, problem-solving, and collaboration.",
+      "price": 3500,
+      "key_features": [
+        "Customized Workshops",
+        "Team Bonding Activities",
+        "Professional Facilitators",
+        "Flexible Scheduling"
+      ],
+      "testimonials": [
+        {
+          "client_name": "Lisa Anderson",
+          "quote": "The team building workshop was a fantastic experience for our employees. It improved teamwork and morale."
+        },
+        {
+          "client_name": "David Hernandez",
+          "quote": "Thank you for organizing the team building workshop. Our teams are now more united and productive."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How long are the workshops?",
+          "answer": "Workshop durations can vary and are tailored to your team's needs."
+        },
+        {
+          "question": "Can you accommodate large teams?",
+          "answer": "Yes, we can customize workshops for both small and large teams."
+        }
+      ],
+      "contact_info": {
+        "email": "info@example.com",
+        "phone": "+1 (123) 456-7890"
+      },
+      "related_services": [
+        {
+          "name": "Product Launch Management",
+          "url": "https://i.ibb.co/xGGkMcy/Product-Launch.jpg"
+        },
+        {
+          "name": "Award Ceremony Organization",
+          "url": "https://i.ibb.co/XxH18ZG/awards.jpg"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Product Launch Management",
+      "image": "https://i.ibb.co/xGGkMcy/Product-Launch.jpg",
+      "description": "Make your product launch memorable with our expert management. We handle strategic planning, logistics, and create excitement around your new products or services.",
+      "price": 7000,
+      "key_features": [
+        "Launch Strategy",
+        "Event Logistics",
+        "Audience Engagement",
+        "Media Coverage"
+      ],
+      "testimonials": [
+        {
+          "client_name": "James Turner",
+          "quote": "Our product launch was a major success, thanks to your meticulous planning and execution."
+        },
+        {
+          "client_name": "Amanda White",
+          "quote": "Your team exceeded our expectations. The product launch generated significant buzz and media coverage."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "How far in advance should we plan a product launch?",
+          "answer": "It's ideal to plan a product launch 3-6 months in advance to ensure a successful launch event."
+        },
+        {
+          "question": "Can you help with product branding?",
+          "answer": "Yes, we offer branding services as part of our product launch package."
+        }
+      ],
+      "contact_info": {
+        "email": "info@example.com",
+        "phone": "+1 (123) 456-7890"
+      },
+      "related_services": [
+        {
+          "name": "Conference Management",
+          "url": "https://i.ibb.co/b33v7yM/conference.jpg"
+        },
+        {
+          "name": "Team Building Workshops",
+          "url": "https://i.ibb.co/4MFDyNr/team-building.jpg"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Corporate Meeting Services",
+      "image": "https://i.ibb.co/G22QGx7/Corporate-Meeting.jpg",
+      "description": "Efficiently manage corporate meetings with our services. From agenda planning to on-site coordination, we ensure your meetings run smoothly.",
+      "price": 4000,
+      "key_features": [
+        "Agenda Planning",
+        "Venue Selection",
+        "On-Site Coordination",
+        "Technology Support"
+      ],
+      "testimonials": [
+        {
+          "client_name": "Sophia Martin",
+          "quote": "Your team made our corporate meeting hassle-free. Everything was well-organized, and our objectives were met."
+        },
+        {
+          "client_name": "William Johnson",
+          "quote": "Thank you for your professionalism in managing our corporate meeting. Your attention to detail was impressive."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you arrange video conferencing equipment?",
+          "answer": "Yes, we provide video conferencing equipment and technical support for remote participants."
+        },
+        {
+          "question": "Do you offer catering services for meetings?",
+          "answer": "Yes, we can arrange catering services based on your preferences."
+        }
+      ],
+      "contact_info": {
+        "email": "info@example.com",
+        "phone": "+1 (123) 456-7890"
+      },
+      "related_services": [
+        {
+          "name": "Team Building Workshops",
+          "url": "https://i.ibb.co/4MFDyNr/team-building.jpg"
+        },
+        {
+          "name": "Award Ceremony Organization",
+          "url": "https://i.ibb.co/XxH18ZG/awards.jpg"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Award Ceremony Organization",
+      "image": "https://i.ibb.co/XxH18ZG/awards.jpg",
+      "description": "Elevate your award ceremonies with our attention to detail. We handle everything from venue selection and decoration to presentation setup and entertainment.",
+      "price": 5500,
+      "key_features": [
+        "Thematic Ceremonies",
+        "Decor and Setup",
+        "Entertainment",
+        "Custom Awards"
+      ],
+      "testimonials": [
+        {
+          "client_name": "Olivia Davis",
+          "quote": "Our award ceremony was a memorable event, all thanks to your team's dedication and creativity."
+        },
+        {
+          "client_name": "Daniel Lee",
+          "quote": "Your award ceremony organization exceeded our expectations. It was a truly special evening for our team."
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Can you create custom award designs?",
+          "answer": "Yes, we work with artisans to create unique and custom awards that reflect your organization's values."
+        },
+        {
+          "question": "Do you offer entertainment options?",
+          "answer": "Certainly, we can arrange various entertainment options to make your award ceremony memorable."
+        }
+      ],
+      "contact_info": {
+        "email": "info@example.com",
+        "phone": "+1 (123) 456-7890"
+      },
+      "related_services": [
+        {
+          "name": "Team Building Workshops",
+          "url": "https://i.ibb.co/4MFDyNr/team-building.jpg"
+        },
+        {
+          "name": "Product Launch Management",
+          "url": "https://i.ibb.co/xGGkMcy/Product-Launch.jpg"
+        }
+      ]
+    }
+  ]
+  

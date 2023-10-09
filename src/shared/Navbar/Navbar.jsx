@@ -62,7 +62,7 @@ const Navbar = () => {
               
               <img className="w-10 rounded-full mx-2" src={user.photoURL} alt="" />
                 <button onClick={handleSignOut} className="btn btn-sm btn-info text-white">Log Out</button> */}
-                                <div className="dropdown mr-7 lg:mr-32 md:mr-14">
+                                <div className="dropdown mr-7  md:mr-14">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
               <FiChevronsDown></FiChevronsDown>
             </label>
@@ -77,6 +77,9 @@ const Navbar = () => {
               
             </ul>
           </div>
+          <div className="hidden lg:flex lg:flex-col mx-0 lg:mx-1">
+                <p className="text-blue-400 font-semibold">{user.displayName}</p>
+                <p className="text-sm">{user.email}</p></div>  
               <img className="w-10 rounded-full mx-1 lg:mx-2" src={user.photoURL} alt="" />
                 <button onClick={handleSignOut} className="btn btn-sm btn-info text-white">Log Out</button>
 
