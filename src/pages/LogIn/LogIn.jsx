@@ -3,7 +3,7 @@ import { useContext, useEffect, useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
+
 
 
 
@@ -134,7 +134,7 @@ const LogIn = () => {
 
 
             </div>
-            <ToastContainer />
+
         </div>
     );
 };

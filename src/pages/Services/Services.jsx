@@ -1,4 +1,4 @@
-import {FcApproval } from "react-icons/fc";
+import { FcApproval } from "react-icons/fc";
 import { useLoaderData, useParams } from "react-router-dom";
 
 
@@ -15,8 +15,8 @@ const Services = () => {
   return (
     <div>
 
-   <div className="grid gap-10 grid-cols-1 lg:grid-cols-3 container mx-auto my-10">
-   <div className="card  col-span-2 bg-base-100 shadow-xl ">
+      <div className="grid gap-10 grid-cols-1 lg:grid-cols-3 container mx-auto my-10">
+        <div className="card  col-span-2 bg-base-100 shadow-xl ">
           <h2 className="text-xl md:text-3xl text-cyan-800 font-bold text-center py-5">
             {serviceDetail.name}
 
@@ -35,22 +35,22 @@ const Services = () => {
             </div>
           </div>
         </div>
-    <div className=" mt-0 md:mt-20 ml-6 md:ml-20 ">
-      
-      <h1 className="text-2xl font-bold  text-center">Key Features</h1>
-      <hr />
-      <ul >
-      {serviceDetail.key_features.map((feature, index) => (
+        <div className=" mt-0 md:mt-20 ml-6 md:ml-20 ">
+
+          <h1 className="text-2xl font-bold  text-center">Key Features</h1>
+          <hr />
+          <ul >
+            {serviceDetail.key_features.map((feature, index) => (
               <li className="ml-10 mt-4 flex items-center gap-1"
-               key={index}> <FcApproval></FcApproval> {feature}</li>
+                key={index}> <FcApproval></FcApproval> {feature}</li>
             ))}
-      </ul>
-    
-  
+          </ul>
+
+
+        </div>
+      </div>
     </div>
-   </div>
-  </div>
-    
+
   );
 };
 

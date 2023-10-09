@@ -10,41 +10,41 @@ import GallaryOverview from "../components/GallaryOverview/GallaryOverview";
 import Faq from "../pages/Faq/Faq";
 
 const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Root></Root>,
-      errorElement: <ErrorPage></ErrorPage>,
-      children:[
-        {
-            path: '/',
-            element: <Home></Home>,
-            loader : () => fetch('/service.json')
-        },
-        {
-            path: '/service/:id',
-            element: (<PrivateRoute><Services></Services></PrivateRoute>),
-            loader: () => fetch("/service.json")
-            
-        },
-        {
-            path: '/Login',
-            element: <LogIn></LogIn>
-        },
-        {
-            path: '/Register',
-            element: <Register></Register>
-        },
-        {
-            path: '/gallery',
-            element: (<PrivateRoute><GallaryOverview></GallaryOverview></PrivateRoute>),
-            loader: () => fetch('gallery.json')
-        },
-        {
-            path: '/faq',
-            element: (<PrivateRoute><Faq></Faq></PrivateRoute>),loader: () => fetch('service.json')             
-        }
+  {
+    path: "/",
+    element: <Root></Root>,
+    errorElement: <ErrorPage></ErrorPage>,
+    children: [
+      {
+        path: '/',
+        element: <Home></Home>,
+        loader: () => fetch('/service.json')
+      },
+      {
+        path: '/service/:id',
+        element: (<PrivateRoute><Services></Services></PrivateRoute>),
+        loader: () => fetch("/service.json")
 
-      ]
-    },
-  ]);
-  export default router;
+      },
+      {
+        path: '/Login',
+        element: <LogIn></LogIn>
+      },
+      {
+        path: '/Register',
+        element: <Register></Register>
+      },
+      {
+        path: '/gallery',
+        element: (<PrivateRoute><GallaryOverview></GallaryOverview></PrivateRoute>),
+        loader: () => fetch('gallery.json')
+      },
+      {
+        path: '/faq',
+        element: (<PrivateRoute><Faq></Faq></PrivateRoute>), loader: () => fetch('service.json')
+      }
+
+    ]
+  },
+]);
+export default router;
