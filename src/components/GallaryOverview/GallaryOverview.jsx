@@ -2,7 +2,10 @@ import { useLoaderData } from "react-router-dom";
 import Gallery from "../Gallery/Gallery";
 
 
+
+
 const GallaryOverview = () => {
+ 
     const galleries = useLoaderData();
 
 

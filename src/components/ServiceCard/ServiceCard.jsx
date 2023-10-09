@@ -1,13 +1,20 @@
 import { Link } from "react-router-dom";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 
 
 const ServiceCard = ({ service }) => {
+    useEffect(() => {
+        AOS.init();
+      }, [])
     const { name, description, price,image , id } = service;
     return (
         <div>
             
-            <div className="card  glass ">
+            <div className="card  glass  " data-aos="flip-left">
                 <figure>
                     <img src={image} />
                 </figure>

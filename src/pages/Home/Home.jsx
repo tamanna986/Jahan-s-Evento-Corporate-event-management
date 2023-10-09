@@ -5,15 +5,18 @@ import { useEffect, useState } from "react";
 import Testimonials from "../../components/Testimonials/Testimonials";
 
 
-
 const Home = () => {
     const [gallery, setGallery] = useState([])
     const services = useLoaderData();
     console.log(services)
+
+
+
     useEffect(() => {
         fetch('gallery.json')
             .then(res => res.json())
             .then(data => setGallery(data))
+
     }, [])
     return (
         <div className="container mx-auto">
@@ -43,7 +46,7 @@ const Home = () => {
                         {
                             gallery.map(image =>
                                 <div key={image.id}>
-                                    <img className="w-56 h-36" src={image.galleryImage} />
+                                    <img className="w-56 h-36"  src={image.galleryImage} />
                                 </div>)
                         }
                     </div>

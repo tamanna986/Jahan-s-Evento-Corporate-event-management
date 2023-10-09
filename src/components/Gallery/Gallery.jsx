@@ -1,7 +1,17 @@
 import { CiLocationOn } from "react-icons/ci";
 
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
+
 
 const Gallery = ({ gallery }) => {
+
+  useEffect(() => {
+    AOS.init();
+  }, [])
+  
   return (
     <div className="mx-2">
       <div className="card  md:card-side bg-base-100 shadow-xl " data-aos="flip-left">
