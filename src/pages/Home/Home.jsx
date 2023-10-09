@@ -1,7 +1,8 @@
-import { useLoaderData } from "react-router-dom";
+import { Link, useLoaderData } from "react-router-dom";
 import Banner from "../../components/Banner/Banner";
 import ServiceCard from "../../components/ServiceCard/ServiceCard";
 import { useEffect, useState } from "react";
+import Testimonials from "../../components/Testimonials/Testimonials";
 
 
 
@@ -33,19 +34,24 @@ const Home = () => {
            </div>
 <div>
     <div className="my-20  ">
-        {/* <img src={services.galleryImage} /> */}
-        <h1 className="text-2xl md:text-3xl font-semibold text-center text-white">Our Achieved memory</h1>
-        <h2>{}service</h2>
-        <div className="grid grid-cols-4">
+       
+  
+        <h1 className="text-2xl md:text-3xl font-semibold text-center ">Our Achieved memory</h1>
+        <hr className="w-56 mb-10 mx-auto"/>
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 w-[400px] lg:w-[700px] mx-auto">
+
             {
                 gallery.map(image =>
                 <div key ={image.id}>
-                    <img src={image.galleryImage} />
+                    <img className="w-56 h-36" src={image.galleryImage} />
                 </div> )
             }
         </div>
+       <div className="w-32 mx-auto my-10"><p className="p-2 bg-blue-400 text-white w-32 text-center rounded-full"><Link to = '/gallery'>See More</Link></p></div>
     </div>
 </div>
+
+      <Testimonials></Testimonials>
         </div>
     );
 };

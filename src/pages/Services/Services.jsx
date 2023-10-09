@@ -17,7 +17,7 @@ const Services = () => {
 
    <div className="grid gap-10 grid-cols-1 lg:grid-cols-3 container mx-auto my-10">
    <div className="card  col-span-2 bg-base-100 shadow-xl ">
-          <h2 className="text-xl text-cyan-800 font-bold text-center py-5">
+          <h2 className="text-xl md:text-3xl text-cyan-800 font-bold text-center py-5">
             {serviceDetail.name}
 
           </h2>

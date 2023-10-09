@@ -36,12 +36,13 @@ const router = createBrowserRouter([
         },
         {
             path: '/gallery',
-            element: <GallaryOverview></GallaryOverview>,
+            element: (<PrivateRoute><GallaryOverview></GallaryOverview></PrivateRoute>),
             loader: () => fetch('gallery.json')
         },
         {
             path: '/faq',
-            element: <Faq></Faq>
+            element: (<PrivateRoute><Faq></Faq></PrivateRoute>)
+             
         }
 
       ]
