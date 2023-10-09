@@ -41,8 +41,7 @@ const router = createBrowserRouter([
         },
         {
             path: '/faq',
-            element: (<PrivateRoute><Faq></Faq></PrivateRoute>)
-             
+            element: (<PrivateRoute><Faq></Faq></PrivateRoute>),loader: () => fetch('service.json')             
         }
 
       ]
