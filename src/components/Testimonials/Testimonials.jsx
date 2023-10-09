@@ -1,10 +1,19 @@
 import { useLoaderData } from "react-router-dom";
+// importing aos
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 
 const Testimonials = () => {
+
+    useEffect(() => {
+        AOS.init();
+      }, [])
+
     const testimonials = useLoaderData();
    
     return (
-        <div className="mb-20">
+        <div className="mb-20"  data-aos="flip-left">
         <h1 className="text-2xl md:text-3xl font-semibold text-center ">Client Appriciation</h1>
         <hr className="w-56 mb-10 mx-auto mt-1"/>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 w-[270px] md:w-[600px] lg:w-[900px] mx-auto">

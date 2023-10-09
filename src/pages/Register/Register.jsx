@@ -44,7 +44,7 @@ const Register = () => {
 
         createUser(email, password)
             .then(result => {
-                console.log(result)
+              
                 toast.success("Registration successful!", {
                     position: toast.POSITION.TOP_RIGHT,
                     autoClose: 3000,
@@ -132,6 +132,9 @@ const Register = () => {
                                 </div>
                                 <div className="form-control mt-2 mb-4">
                                     <button className="btn btn-primary">Register</button>
+                                   
+                                        
+                                 
                                 </div>
 
                                 {
