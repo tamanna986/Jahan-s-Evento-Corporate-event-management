@@ -1,12 +1,19 @@
 import { useLoaderData } from "react-router-dom";
 import Banner from "../../components/Banner/Banner";
 import ServiceCard from "../../components/ServiceCard/ServiceCard";
+import { useEffect, useState } from "react";
 
 
 
 const Home = () => {
+    const[gallery, setGallery] = useState([])
     const services = useLoaderData();
     console.log(services)
+    useEffect(() =>{
+        fetch('gallery.json')
+        .then(res => res.json())
+        .then(data => setGallery(data))
+    },[])
     return (
         <div className="container mx-auto">
             <Banner></Banner>
@@ -24,7 +31,21 @@ const Home = () => {
                 }
             </div>
            </div>
-
+<div>
+    <div className="my-20  ">
+        {/* <img src={services.galleryImage} /> */}
+        <h1 className="text-2xl md:text-3xl font-semibold text-center text-white">Our Achieved memory</h1>
+        <h2>{}service</h2>
+        <div className="grid grid-cols-4">
+            {
+                gallery.map(image =>
+                <div key ={image.id}>
+                    <img src={image.galleryImage} />
+                </div> )
+            }
+        </div>
+    </div>
+</div>
         </div>
     );
 };

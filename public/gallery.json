@@ -1,0 +1,60 @@
+[
+    {
+      "id": 1,
+      "eventName": "Corporate Excellence Awards Ceremony",
+      "location": "Grand Ballroom, Downtown Hotel",
+      "details": "We organized the Corporate Excellence Awards Ceremony to recognize outstanding achievements in the corporate world. The event took place at the prestigious Grand Ballroom of the Downtown Hotel. We provided a luxurious red carpet entrance, elegant stage setup, and a glamorous awards presentation.",
+      "galleryImage": "https://i.ibb.co/gdnyRQN/c12.jpg"
+    },
+    {
+      "id": 2,
+      "eventName": "Strategic Product Launch Showcase",
+      "location": "Innovation Center Auditorium",
+      "details": "Our team orchestrated a successful product launch event at the Innovation Center Auditorium. We created a captivating atmosphere with innovative product displays, engaging presentations, and interactive demos.",
+      "galleryImage": "https://i.ibb.co/994XtdV/c11.jpg"
+    },
+    {
+      "id": 3,
+      "eventName": "Global Trade Show Exhibition",
+      "location": "Convention Center, Exhibition Hall A",
+      "details": "The Global Trade Show Exhibition was a major international event held at the Convention Center, Exhibition Hall A. We managed logistics, booth setups, and promotional activities to ensure exhibitors from around the world had a successful showcase.",
+      "galleryImage": "https://i.ibb.co/86j511K/c10.jpg"
+    },
+    {
+      "id": 4,
+      "eventName": "Team Building Workshop Series",
+      "location": "Corporate Retreat Center",
+      "details": "We organized a series of team building workshops at the serene Corporate Retreat Center. These workshops focused on enhancing teamwork, communication, and problem-solving skills among employees.",
+      "galleryImage": "https://i.ibb.co/9sjwKS2/c9.jpg"
+    },
+    {
+      "id": 5,
+      "eventName": "Annual Sales Achievement Awards",
+      "location": "Luxury Resort Ballroom",
+      "details": "The Annual Sales Achievement Awards ceremony was held at a luxury resort ballroom, offering an elegant backdrop for recognizing top-performing sales professionals. The event featured exquisite decorations and a gourmet dinner.",
+      "galleryImage": "https://i.ibb.co/d2n50dK/7.jpg"
+    },
+    {
+      "id": 6,
+      "eventName": "Leadership Development Workshop",
+      "location": "Corporate Headquarters",
+      "details": "We conducted a Leadership Development Workshop at the client's corporate headquarters. Our facilitators provided valuable insights and training to nurture leadership skills among executives.",
+      "galleryImage": "https://i.ibb.co/FYxmzp2/c6.png"
+    },
+    {
+      "id": 7,
+      "eventName": "Product Innovation Showcase",
+      "location": "Innovation Expo Center",
+      "details": "At the Innovation Expo Center, we organized a Product Innovation Showcase that highlighted cutting-edge products. The event drew industry leaders, investors, and innovators from across the globe.",
+      "galleryImage": "https://i.ibb.co/p6T4m1K/c5.jpg"
+    },
+    {
+      "id": 8,
+      "eventName": "Corporate Sustainability Symposium",
+      "location": "GreenTech Conference Center",
+      "details": "The Corporate Sustainability Symposium was a knowledge-sharing event held at the eco-friendly GreenTech Conference Center. Experts discussed sustainable business practices and solutions.",
+      "galleryImage": "https://i.ibb.co/86j511K/c10.jpg"
+    }
+
+  ]
+  

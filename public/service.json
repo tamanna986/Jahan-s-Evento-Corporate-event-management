@@ -2,8 +2,9 @@
     {
       "id": 1,
       "name": "Conference Management",
+      "galleryImage": "https://i.ibb.co/gdnyRQN/c12.jpg",
       "image": "https://i.ibb.co/b33v7yM/conference.jpg",
-      "description": "Our conference management service is a comprehensive solution that includes expert planning and execution of conferences and seminars. We handle everything from venue selection to audio-visual setup and attendee management, ensuring a seamless and successful event.",
+      "description": "Our conference management service is a comprehensive solution that includes expert planning and execution of conferences and seminars. We handle everything from venue selection to audio-visual setup and attendee management, ensuring a seamless and successful event. Whether it's a small corporate conference or a large-scale industry seminar, our team has the expertise to make it a memorable experience. With customized event planning, state-of-the-art audio-visual equipment, and a dedicated team, we ensure that every detail is taken care of to exceed your expectations. Don't leave your conference to chance; let us make it a resounding success.",
       "price": 8000,
       "key_features": [
         "Venue Selection",
@@ -35,22 +36,19 @@
         "email": "info@example.com",
         "phone": "+1 (123) 456-7890"
       },
-      "related_services": [
+      "related_services": 
         {
           "name": "Trade Show Coordination",
           "url": "https://i.ibb.co/17ZSTqC/Trade-Show-Coordination.jpg"
-        },
-        {
-          "name": "Product Launch Management",
-          "url": "https://i.ibb.co/xGGkMcy/Product-Launch.jpg"
         }
-      ]
+      
     },
     {
       "id": 2,
       "name": "Trade Show Coordination",
+      "galleryImage": "https://i.ibb.co/994XtdV/c11.jpg",
       "image": "https://i.ibb.co/17ZSTqC/Trade-Show-Coordination.jpg",
-      "description": "Our trade show coordination service provides end-to-end support for trade shows and expos. We ensure your booth stands out, manage logistics, and execute effective promotional activities.",
+      "description": "Our trade show coordination service provides end-to-end support for trade shows and expos. We understand the importance of making your booth stand out in a crowded exhibition hall. Our team specializes in booth setup, logistics management, and executing effective promotional activities to attract and engage attendees. Whether it's a national or international trade show, we have the experience and resources to make it a success. Our custom booth designs ensure that your brand gets the attention it deserves. Trust us to handle the details, so you can focus on making meaningful connections and generating valuable leads.",
       "price": 10000,
       "key_features": [
         "Booth Setup",
@@ -82,22 +80,18 @@
         "email": "info@example.com",
         "phone": "+1 (123) 456-7890"
       },
-      "related_services": [
+      "related_services": 
         {
           "name": "Conference Management",
           "url": "https://i.ibb.co/b33v7yM/conference.jpg"
-        },
-        {
-          "name": "Product Launch Management",
-          "url": "https://i.ibb.co/xGGkMcy/Product-Launch.jpg"
         }
-      ]
     },
     {
       "id": 3,
       "name": "Team Building Workshops",
+      "galleryImage": "https://i.ibb.co/86j511K/c10.jpg",
       "image": "https://i.ibb.co/4MFDyNr/team-building.jpg",
-      "description": "Boost team cohesion and productivity with our team building workshops. Our engaging activities and workshops enhance communication, problem-solving, and collaboration.",
+      "description": "Boost team cohesion and productivity with our team building workshops. Our engaging activities and workshops are designed to enhance communication, problem-solving, and collaboration among your team members. We understand that every team is unique, and our workshops are tailored to meet your specific needs. With a focus on team bonding activities and professional facilitators, we create an environment where your team can thrive. Flexible scheduling allows you to choose the workshop duration that suits your team's requirements. Let us help you build stronger, more cohesive teams that drive success.",
       "price": 3500,
       "key_features": [
         "Customized Workshops",
@@ -129,22 +123,18 @@
         "email": "info@example.com",
         "phone": "+1 (123) 456-7890"
       },
-      "related_services": [
+      "related_services": 
         {
-          "name": "Product Launch Management",
+          "name": "Product Launch Manage",
           "url": "https://i.ibb.co/xGGkMcy/Product-Launch.jpg"
-        },
-        {
-          "name": "Award Ceremony Organization",
-          "url": "https://i.ibb.co/XxH18ZG/awards.jpg"
         }
-      ]
     },
     {
       "id": 4,
-      "name": "Product Launch Management",
+      "name": "Manage Product Launch",
       "image": "https://i.ibb.co/xGGkMcy/Product-Launch.jpg",
-      "description": "Make your product launch memorable with our expert management. We handle strategic planning, logistics, and create excitement around your new products or services.",
+      "galleryImage": "https://i.ibb.co/9sjwKS2/c9.jpg",
+      "description": "Make your product launch memorable with our expert management. We handle strategic planning, logistics, and create excitement around your new products or services. Our launch strategy is carefully crafted to ensure maximum impact, and our event logistics team ensures that everything runs smoothly. Audience engagement is a priority, and we employ innovative techniques to capture your audience's attention. Media coverage is essential for a successful product launch, and we have the expertise to secure significant buzz and coverage for your event. Whether you're launching a new product or service, we have the skills and creativity to make it a memorable experience.",
       "price": 7000,
       "key_features": [
         "Launch Strategy",
@@ -176,22 +166,18 @@
         "email": "info@example.com",
         "phone": "+1 (123) 456-7890"
       },
-      "related_services": [
+      "related_services": 
         {
           "name": "Conference Management",
           "url": "https://i.ibb.co/b33v7yM/conference.jpg"
-        },
-        {
-          "name": "Team Building Workshops",
-          "url": "https://i.ibb.co/4MFDyNr/team-building.jpg"
         }
-      ]
     },
     {
       "id": 5,
-      "name": "Corporate Meeting Services",
+      "name": "Corporate Meeting",
       "image": "https://i.ibb.co/G22QGx7/Corporate-Meeting.jpg",
-      "description": "Efficiently manage corporate meetings with our services. From agenda planning to on-site coordination, we ensure your meetings run smoothly.",
+      "galleryImage": "https://i.ibb.co/d2n50dK/7.jpg",
+      "description": "Efficiently manage corporate meetings with our services. From agenda planning to on-site coordination, we ensure your meetings run smoothly. Venue selection is critical, and we help you choose the perfect location for your meeting's objectives. Our agenda planning expertise ensures that your meeting stays focused and productive. On-site coordination is handled with professionalism, and we provide technology support to facilitate remote participation. If catering is needed, we can arrange it based on your preferences. Our goal is to make your corporate meetings hassle-free and impressive, leaving a lasting impression on your team and clients.",
       "price": 4000,
       "key_features": [
         "Agenda Planning",
@@ -223,22 +209,18 @@
         "email": "info@example.com",
         "phone": "+1 (123) 456-7890"
       },
-      "related_services": [
+      "related_services": 
         {
           "name": "Team Building Workshops",
           "url": "https://i.ibb.co/4MFDyNr/team-building.jpg"
-        },
-        {
-          "name": "Award Ceremony Organization",
-          "url": "https://i.ibb.co/XxH18ZG/awards.jpg"
         }
-      ]
     },
     {
       "id": 6,
-      "name": "Award Ceremony Organization",
+      "name": "Organize Award Ceremony",
+      "galleryImage": "https://i.ibb.co/FYxmzp2/c6.png",
       "image": "https://i.ibb.co/XxH18ZG/awards.jpg",
-      "description": "Elevate your award ceremonies with our attention to detail. We handle everything from venue selection and decoration to presentation setup and entertainment.",
+      "description": "Elevate your award ceremonies with our meticulous attention to detail. We handle everything from venue selection and decoration to presentation setup and entertainment. Thematic ceremonies are our specialty, and we work to create a unique and memorable event that aligns with your organization's values. Our decor and setup team ensures that the venue is visually stunning and reflective of the occasion. Entertainment options are varied, allowing you to choose what suits your ceremony best. Custom awards are a unique touch, and we collaborate with artisans to create one-of-a-kind awards that celebrate your achievers. Make your award ceremony truly special with our expertise.These extended descriptions provide a more detailed overview of each service, highlighting the key features and benefits offered by your event management company.",
       "price": 5500,
       "key_features": [
         "Thematic Ceremonies",
@@ -270,16 +252,11 @@
         "email": "info@example.com",
         "phone": "+1 (123) 456-7890"
       },
-      "related_services": [
+      "related_services": 
         {
           "name": "Team Building Workshops",
           "url": "https://i.ibb.co/4MFDyNr/team-building.jpg"
-        },
-        {
-          "name": "Product Launch Management",
-          "url": "https://i.ibb.co/xGGkMcy/Product-Launch.jpg"
         }
-      ]
     }
   ]
   

@@ -15,12 +15,12 @@ const Navbar = () => {
       <li><NavLink to='/' className={({ isActive, isPending }) =>
         isPending ? "pending" : isActive ? "active" : ""
       }>Home</NavLink></li>
-      <li><NavLink to='/Services' className={({ isActive, isPending }) =>
+      <li><NavLink to='/gallery' className={({ isActive, isPending }) =>
         isPending ? "pending" : isActive ? "active" : ""
-      }>Services</NavLink></li>
-      <li><NavLink to='/Login' className={({ isActive, isPending }) =>
+      }>Memory</NavLink></li>
+      <li><NavLink to='/faq' className={({ isActive, isPending }) =>
         isPending ? "pending" : isActive ? "active" : ""
-      }>Log in</NavLink></li>
+      }>FAQ</NavLink></li>
       <li><NavLink to='/Register' className={({ isActive, isPending }) =>
         isPending ? "pending" : isActive ? "active" : ""
       }>Register</NavLink></li>

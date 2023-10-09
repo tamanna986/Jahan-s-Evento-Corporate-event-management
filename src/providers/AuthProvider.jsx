@@ -48,7 +48,8 @@ useEffect(() =>{
         createUser,
         signIn,
         signInWithGoogle,
-        logOut
+        logOut,
+        loading
 
     }
     return (
