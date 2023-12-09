@@ -72,7 +72,7 @@ During the iteration:
 After the forEach loop finishes iterating over the nums array, the count variable holds the value 3. Therefore, when Welog count to the console, it prints 3.
 
  **Technology & Tools used**
-HTML, CSS, Tailwind, React
+HTML, CSS, Tailwind, React, Firebase
 
 
 
